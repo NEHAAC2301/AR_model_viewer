@@ -1,0 +1,24 @@
+/* 
+  FIX: Reset the root container to fill the entire screen 
+  so the AR viewer can be full-width and full-height.
+*/
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+  Optional: Keep these if you use cards/buttons in your UI overlay, 
+  but they won't affect the full-screen AR layout anymore.
+*/
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
